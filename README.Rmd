@@ -1,0 +1,99 @@
+---
+date: "21/01/2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+library(tidyverse)
+```
+
+
+```{r readfile, include=FALSE}
+
+best_picture <- read_csv("table/normalized_predict_picture_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_director <- read_csv("table/normalized_predict_director_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_ada_screen <- read_csv("table/normalized_predict_ada_screen_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_ori_screen <- read_csv("table/normalized_predict_ori_screen_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_actor <- read_csv("table/normalized_predict_actor_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_actress <- read_csv("table/normalized_predict_actress_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_sup_actor <- read_csv("table/normalized_predict_supporting_actor_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+best_sup_actress <- read_csv("table/normalized_predict_actress_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+
+```
+
+# Oscar-Machine-Learning
+Machine Learning model to predict the winners of the oscars
+
+### Best Picture 2020 Predictions
+
+```{r Best Picture}
+kable(best_picture)
+```
+
+**Selected film: Joker**
+
+
+##  Best Director 2020 Predictions
+
+```{r Best Director}
+kable(best_director)
+```
+
+**Selected film: Once Upon a Time… in Hollywood**
+
+##  Best Adaptive Screen Play 2020 Predictions
+
+```{r Best Best Adaptive Screen Play}
+kable(best_ada_screen)
+```
+
+**Selected film: The Irishman**
+
+##  Best Orginal Screen Play 2020 Predictions
+
+```{r Best Orginal Screen Play}
+kable(best_ori_screen)
+```
+
+**Selected film: Once Upon a Time… in Hollywood**
+
+##  Best Actor 2020 Predictions
+
+```{r Best Actor}
+kable(best_actor)
+```
+
+**Selected film: The Irishman**
+
+##  Best Actress 2020 Predictions
+
+```{r Best Actres}
+kable(best_actress)
+```
+
+**Selected film: Marriage Story**
+
+##  Best Supporting Actor 2020 Predictions
+
+```{r Best Supporting Actor}
+kable(best_sup_actor)
+```
+
+**Selected film: Once Upon a Time… in Hollywood**
+
+##  Best Supporting Actress 2020 Predictions
+
+```{r Best Supporting Actress}
+kable(best_sup_actress)
+```
+
+**Selected film: Marriage Story**
