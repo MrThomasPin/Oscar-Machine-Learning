@@ -1,1 +1,4 @@
-*.csv
+data/01_oscar_data.csv
+data/02_oscar_data.csv
+01_oscar_data.csv
+02_oscar_data.csv
