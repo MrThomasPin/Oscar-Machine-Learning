@@ -26,7 +26,7 @@ best_actress <- read_csv("table/normalized_predict_actress_2019.csv", col_names 
 
 best_sup_actor <- read_csv("table/normalized_predict_supporting_actor_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
 
-best_sup_actress <- read_csv("table/normalized_predict_actress_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
+best_sup_actress <- read_csv("table/normalized_predict_supporting_actress_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
 
 ```
 
@@ -48,7 +48,7 @@ kable(best_picture)
 kable(best_director)
 ```
 
-**Selected film: Once Upon a Time… in Hollywood**
+**Selected film: Parasite**
 
 ##  Best Adaptive Screen Play 2020 Predictions
 
@@ -64,7 +64,7 @@ kable(best_ada_screen)
 kable(best_ori_screen)
 ```
 
-**Selected film: Once Upon a Time… in Hollywood**
+**Selected film: The Irishman**
 
 ##  Best Actor 2020 Predictions
 
@@ -72,7 +72,7 @@ kable(best_ori_screen)
 kable(best_actor)
 ```
 
-**Selected film: The Irishman**
+**Selected film: Marriage Story**
 
 ##  Best Actress 2020 Predictions
 
@@ -80,7 +80,7 @@ kable(best_actor)
 kable(best_actress)
 ```
 
-**Selected film: Marriage Story**
+**Selected film: Little Woman**
 
 ##  Best Supporting Actor 2020 Predictions
 
