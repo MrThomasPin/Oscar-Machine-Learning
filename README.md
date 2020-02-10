@@ -2,7 +2,21 @@
 
 # Oscar-Machine-Learning
 
-Machine Learning model to predict the winners of the oscars
+Machine Learning model to predict the winners of the
+oscars
+
+# Results
+
+| Category                 | Model’s Prediction                         | Sarah’s Prediction                         | Actual Winner                              |
+| :----------------------- | :----------------------------------------- | :----------------------------------------- | :----------------------------------------- |
+| Best Picture             | Joker                                      | 1917                                       | Parasite                                   |
+| Best Director            | Parasite                                   | Parasite                                   | Parasite                                   |
+| Best Adaptive Screenplay | The Irishman                               | Little Women                               | Jojo Rabbit                                |
+| Best Orginal Screenplay  | Once Upon a Time… in Hollywood             | Parasite                                   | Parasite                                   |
+| Best Actor               | Marriage Story’s Adam Driver               | Joker’s Joaquin Phoenix                    | Joker’s Joaquin Phoenix                    |
+| Best Actress             | Little Women’s Saorise Ronan               | Judy’s Renee Zellweger                     | Judy’s Renee Zellweger                     |
+| Best Supporting Actor    | Once Upon a Time… in Hollywood’s Brad Pitt | Once Upon a Time… in Hollywood’s Brad Pitt | Once Upon a Time… in Hollywood’s Brad Pitt |
+| Best Supporting Actress  | Marriage Story’s Laura Dern                | Little Women’s Florence Pugh               | Marriage Story’s Laura Dern                |
 
 ### Best Picture 2020 Predictions
 

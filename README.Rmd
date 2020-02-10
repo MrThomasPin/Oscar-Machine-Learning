@@ -28,10 +28,26 @@ best_sup_actor <- read_csv("table/normalized_predict_supporting_actor_2019.csv",
 
 best_sup_actress <- read_csv("table/normalized_predict_supporting_actress_2019.csv", col_names = c("Movie", "Chance of Winning"), skip = 1)
 
+results <- read.csv("table/results.csv")
+
+results <- results %>% 
+  rename(
+    `Model's Prediction` = Model.s.Prediction,
+    `Sarah's Prediction` = Sarah.s.Prediction,
+    `Actual Winner` = Actual.Winner
+  )
+
 ```
 
 # Oscar-Machine-Learning
 Machine Learning model to predict the winners of the oscars
+
+
+# Results
+
+```{r Results}
+kable(results)
+```
 
 ### Best Picture 2020 Predictions
 
