@@ -68,7 +68,7 @@ oscars
 | Marriage Story                 | 2.88%             |
 | Once Upon a Time… in Hollywood | 79.54%            |
 
-**Selected film: The Irishman**
+**Selected film: Once Upon a Time… in Hollywood**
 
 ## Best Actor 2020 Predictions
 
