@@ -42,6 +42,12 @@ results <- results %>%
 # Oscar-Machine-Learning
 Machine Learning model to predict the winners of the oscars
 
+# Articles
+
+[Part I](https://www.linkedin.com/pulse/oscar-machine-learning-model-vs-data-scientists-girlfriend-thomas-pin/)
+
+[Part II](https://www.linkedin.com/pulse/oscar-machine-learning-model-vs-data-scientists-girlfriend-thomas-pin-1f/?published=t&trackingId=q5s3hDx5E6yG81zwH1XdjA%3D%3D)
+
 
 # Results
 

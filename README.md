@@ -2,8 +2,15 @@
 
 # Oscar-Machine-Learning
 
-Machine Learning model to predict the winners of the
-oscars
+Machine Learning model to predict the winners of the oscars
+
+# Articles
+
+[Part
+I](https://www.linkedin.com/pulse/oscar-machine-learning-model-vs-data-scientists-girlfriend-thomas-pin/)
+
+[Part
+II](https://www.linkedin.com/pulse/oscar-machine-learning-model-vs-data-scientists-girlfriend-thomas-pin-1f/?published=t&trackingId=q5s3hDx5E6yG81zwH1XdjA%3D%3D)
 
 # Results
 
@@ -68,7 +75,7 @@ oscars
 | Marriage Story                 | 2.88%             |
 | Once Upon a Time… in Hollywood | 79.54%            |
 
-**Selected film: Once Upon a Time… in Hollywood**
+**Selected film: The Irishman**
 
 ## Best Actor 2020 Predictions
 
